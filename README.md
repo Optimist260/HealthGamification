@@ -55,22 +55,15 @@ No license file is included. Add a `LICENSE` file (e.g., MIT) if you wish to mak
 
 ---
 
-If you'd like, I can also add a short `run_demo.ps1` script that builds and runs a sample session, or expand the README with module descriptions suitable for a presentation.
----
-
-## Detailed Project Report
-
-This section expands the README into a comprehensive reference you can use during demos or a short presentation. It explains the architecture, key modules, data formats, algorithms and suggested next steps.
-
-Project purpose and goals
+## Project purpose and goals
 
 Health Gamification was built as an instructional and prototype application to demonstrate how lightweight gamification mechanics can be applied to encourage healthy behaviours. The goals are to keep the codebase small and approachable, preserve separation of concerns (UI vs domain logic vs persistence), and provide a runnable demo that instructors, students or hobbyists can extend quickly.
 
-High-level architecture
+## High-level architecture
 
 The application is organized into a clear layered structure: the top-level `main.cpp` drives the console UI and session management; domain modules implement users, exercises, workouts and badges; persistence modules manage reading/writing simple text files for user profiles and the leaderboard. This separation makes it easy to replace or extend persistence (for example, replacing text files with JSON or a small SQLite database) without rewriting business logic.
 
-Module descriptions (detailed)
+## Module descriptions (detailed)
 
 `main.cpp` — The entry point provides the console-driven interaction model. On startup it ensures the `data/` directory exists and loads the leaderboard. The program offers a login/create user menu and then a per-user menu. Each menu action creates the appropriate exercise or workout objects, invokes their `perform()` methods (which produce points), updates the `User` object, triggers badge evaluation, and persists state on demand. The main loop is synchronous and intentionally simple for demo purposes.
 
