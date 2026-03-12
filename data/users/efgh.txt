@@ -1,0 +1,7 @@
+NAME:efgh
+POINTS:55
+BADGES:Getting Started
+ACTIVITIES:
+Cardio: Morning Run
+Strength: Push-ups
+Cardio: Morning Run

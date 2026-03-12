@@ -1,0 +1,57 @@
+# Ignore build artifacts and IDE files for this C++ project
+
+# Build outputs
+/build/
+/bin/
+/obj/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.lib
+*.pdb
+healthgame
+
+# Precompiled headers and generated files
+*.gch
+*.pch
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+
+# IDE/editor directories and workspace files
+.qodo/
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# MinGW/MSYS stack dumps
+*.exe.stackdump
+
+# Misc
+*.user
+*.suo
+

@@ -1,0 +1,10 @@
+NAME:abcd
+POINTS:100
+BADGES:Getting Started,Active Member,Pro Gamer
+ACTIVITIES:
+Cardio: Morning Run
+Strength: Push-ups
+Flexibility: Morning Yoga
+Strength: Push-ups
+Flexibility: Morning Yoga
+Completed Workout: Quick Combo
